@@ -1,4 +1,9 @@
 
+h2
+{
+  color:blue;
+}
+
 .titrePage
 {
     color: black;
@@ -12,4 +17,23 @@
 
 .logo{
   text-align: center;
+}
+
+.miniIndex
+{
+  text-align: right;
+}
+
+.logoAnime{
+  text-align: center;
+  backround-color: red;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 4s;
+  animation-name: example;
+}
+
+
+@keyframes example {
+  from {backround-color: red;}
+  to {backround-color: yellow;}
 }
